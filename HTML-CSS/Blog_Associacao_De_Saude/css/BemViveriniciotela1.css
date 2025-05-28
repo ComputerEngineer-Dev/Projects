@@ -1,0 +1,182 @@
+body{
+    font-size: 18px; 
+    line-height: 1.6; 
+    background-color: rgb(214, 252, 226);
+    color: #007491;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri';
+    
+}
+
+
+.header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 163, 235);
+    padding: 16px;
+}
+
+.header-logo{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-left: 16px;
+    letter-spacing: 2px;
+}
+
+.header-nav ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    gap: 16px;
+}
+
+.header-nav a{
+    font-size: 20px; 
+    text-decoration: none;
+    color: white;
+    background-color:  #0078D7;
+    padding: 14px;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+}
+
+a.header-nav-active{
+    background-color: #ffffff;
+    color: black;
+    pointer-events:all;
+}
+.header-nav a:hover {
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.header-nav a:active {
+    transform: translateY(1px); 
+}
+
+.main-title{
+    font-size: 50px;
+    color: rgb(0, 0, 199);
+    text-align: center;
+}
+.main-title-subtitle{
+    font-size: 25px;
+    color: rgb(0, 0, 199);
+    text-align: center;
+}
+.main-title-sub-subtitle{
+    font-size: 25px;
+    color: rgb(0, 0, 199);
+    text-align: center;
+}
+.news{
+    display: flex;
+    justify-content: center; 
+    gap: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 16px;
+}       
+
+.news-article{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;   
+    transition: all 0.3s ease;
+}
+
+.news-article-title{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
+
+
+.news-article-description{
+    text-align: left;
+    
+}
+
+.news-article-link{
+    text-decoration: none;
+    color: white;
+    background-color: #0078D7; 
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 120px;  
+    padding: 16px 24px; 
+    text-align: center;
+}
+
+.news-article-link:hover {
+    background-color: #0062B1;
+    outline: 1px solid #cbe300;
+    cursor: pointer;
+}
+
+.news-article-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.news-article-form input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.article-image {
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+
+.language-selector {
+    position: relative;
+    display: inline-block;
+}
+.language-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 6px;
+}
+
+.language-dropdown a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+.language-dropdown a:hover {
+    background-color: #ddd;
+}
+
+.language-selector:hover .language-dropdown {
+    display: block;
+}
+

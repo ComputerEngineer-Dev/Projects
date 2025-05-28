@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Bem Viver</title>
+    <link rel="stylesheet" href="css/BemViveriniciotela1.css">
+    <link rel="stylesheet" href="css/BemViverlogintela4.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="header-logo">
+            <span class="header-logo">
+                Bem Viver
+            </span>
+        </div>
+        
+        <!-- Navegação -->
+        <nav class="header-nav">
+            <ul>
+                <div class="language-selector">
+                    <a>Idioma ▼</a>
+                    <div class="language-dropdown">
+                        <a href="#pt">Português</a>
+                        <a href="#en">English</a>
+                        <a href="#es">Español</a>
+                    </div>
+                </div>
+                <li><a href="BemViveriniciotela1.html">Inicio</a></li>
+                <li><a href="BemVivercontatotela3.html">Contato</a></li>
+                <li><a href="BemVivercadastrotela2.html">Cadastro</a></li>
+                <li><a class="header-nav-active" href="BemViverlogintela4.html">Entrar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Tela  login -->
+    <main class="login-container">
+        <div class="login-wrapper">
+            <article class="news-article login-box">
+                <h1 class="login-title">Acesse sua conta</h1>
+                <!-- Formulario login -->
+                <form class="login-form">
+                    <div class="form-group">
+                        <label for="login-email">E-mail</label>
+                        <input type="email" id="login-email" placeholder="seu@email.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="login-senha">Senha</label>
+                        <input type="password" id="login-senha" placeholder="Digite sua senha" required>
+                    </div>
+                    
+                    <div class="form-options">
+                        <label class="remember-me">
+                            <input type="checkbox"> Lembrar-me
+                        </label>
+                        <a href="recuperar-senha.html" class="forgot-password">Esqueci minha senha</a>
+                    </div>
+                    
+                    <button type="submit" class="news-article-link login-button">Entrar</button>
+                    
+                    <div class="register-link">
+                        Não tem uma conta? <a href="BemVivercadastrotela2.html">Cadastre-se</a>
+                    </div>
+                </form>
+            </article>
+            <!-- Foto  -->
+            <div class="login-image">
+                <img src="img/technology.jpg" alt="Idosos felizes usando tablets">
+            </div>
+        </div>
+    </main>
+    <!-- Rodapé -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Telefone: (55) 9846-7776</p>
+                <p>Email: contato@bemviver.com.br</p>
+            </div>
+            <div class="footer-section">
+                <h3>Horário de Atendimento</h3>
+                <p>Segunda a Sexta: 8h às 18h</p>
+                <p>Sábado: 8h às 12h</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

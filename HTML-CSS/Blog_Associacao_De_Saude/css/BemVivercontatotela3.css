@@ -1,0 +1,55 @@
+.main-title-contact {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 0, 199);
+    margin-bottom: 30px;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-content {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.contact-info {
+    flex: 1;
+    max-width: 400px;
+}
+
+.info-card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.info-card h3 {
+    color: #007491;
+    font-size: 22px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-form {
+    flex: 1;
+    max-width: 600px;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri';
+    resize: vertical;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Bem Viver</title>
+    <link rel="stylesheet" href="css/BemViveriniciotela1.css">
+    <link rel="stylesheet" href="css/BemVivercadastrotela2.css">
+</head>
+
+<body>
+    <!-- Cabeçalho  -->
+    <header class="header">
+        <div class="header-logo">
+            <span class="header-logo">
+                Bem Viver
+            </span>
+        </div>
+
+        <!-- Barra de Navegação         -->
+        <nav class="header-nav">
+            <ul>
+                <div class="language-selector">
+                    <a>Idioma ▼</a>
+                    <div class="language-dropdown">
+                        <a href="#pt">Português</a>
+                        <a href="#en">English</a>
+                        <a href="#es">Español</a>
+                    </div>
+                </div>
+                <li><a href="BemViveriniciotela1.html">Inicio</a></li>
+                <li><a href="BemVivercontatotela3.html">Contato</a></li>
+                <li><a class="header-nav-active" href="BemVivercadastrotela2.html">Cadastro</a></li>
+                <li><a href="BemViverlogintela4.html">Entrar</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Titulo de cadastro -->
+    <main class="cadastro-container">
+        <h1 class="main-title-cadastrar">Cadastrar</h1>
+        
+        <!-- Article: Formulario -->
+        <article class="news-article">
+             <form class="cadastro-form" id="formCadastro">
+                <p class="required-field">* Campos obrigatórios</p>
+                
+                <div class="form-group">
+                    <label for="name">* Nome Completo:</label>
+                    <input type="text" id="name" placeholder="Digite seu nome completo" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">* E-mail:</label>
+                    <input type="email" id="email" placeholder="seu@email.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="senha">* Senha:</label>
+                    <input type="password" id="senha" placeholder="Mínimo 8 caracteres" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="confirmar-senha">* Confirmar Senha:</label>
+                    <input type="password" id="confirmar-senha" placeholder="Digite novamente sua senha" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" placeholder="(00) 00000-0000">
+                </div>
+                
+                <fieldset class="checkbox-group">
+                    <legend>Como conheceu a Associação?</legend>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="redes-sociais" name="redes-sociais">
+                        <label for="redes-sociais">Redes Sociais</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="cartazes" name="cartazes">
+                        <label for="cartazes">Cartazes</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="radio" name="radio">
+                        <label for="radio">Rádio</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="indicacao" name="indicacao">
+                        <label for="indicacao">Indicação</label>
+                    </div>
+                </fieldset>
+                
+                <button type="submit" class="news-article-link">Cadastrar</button>
+                
+                <p style="text-align: center; margin-top: 20px;">
+                    Já tem uma conta? <a href="login.html" style="color: #0078D7; font-weight: bold;">Faça login</a>
+                </p>
+            </form>
+        </article>
+    </main>
+
+    <!-- Rodape -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Telefone: (55) 9846-7776</p>
+                <p>Email: contato@bemviver.com.br</p>
+            </div>
+            <div class="footer-section">
+                <h3>Horário de Atendimento</h3>
+                <p>Segunda a Sexta: 8h às 18h</p>
+                <p>Sábado: 8h às 12h</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
