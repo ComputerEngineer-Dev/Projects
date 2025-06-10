@@ -1,0 +1,1 @@
+console.log(parseFloat('5') + parseFloat('3'));
